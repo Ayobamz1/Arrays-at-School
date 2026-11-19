@@ -30,7 +30,13 @@ function addItem() {
 
 function deleteLast() {
     // cart.pop();
-    cart = [];
+    // cart = [];
+    // cart.splice(-1, 1);
+
+    // cart = cart.slice(0, -1);
+
+    cart = cart.slice(0, 0);
+    // cart.splice(0);
     displayCart();
 }
 
